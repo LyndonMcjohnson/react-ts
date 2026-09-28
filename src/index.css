@@ -1,0 +1,10 @@
+:root {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2330;
+  background: #f5f6fa;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input, select { font: inherit; }
+code { background: #eceef4; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }

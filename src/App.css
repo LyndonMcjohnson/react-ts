@@ -1,0 +1,25 @@
+.layout { display: flex; min-height: 100vh; }
+.nav { width: 220px; flex-shrink: 0; background: #1f2330; padding: 16px 10px; display: flex; flex-direction: column; gap: 4px; }
+.nav button { text-align: left; background: transparent; color: #cfd3e0; border: 0; padding: 8px 12px; border-radius: 6px; cursor: pointer; }
+.nav button:hover { background: #2d3244; }
+.nav button.active { background: #4f6bed; color: #fff; }
+.content { flex: 1; padding: 24px 32px; max-width: 1000px; }
+
+.demo-card { background: #fff; border: 1px solid #dde0ea; border-radius: 10px; padding: 16px; margin: 12px 0; }
+.demo-card h4 { margin: 0 0 8px; }
+.hint { color: #6b7185; font-size: 0.9em; }
+.error { color: #c0392b; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+button { padding: 6px 12px; border: 1px solid #c8ccda; background: #fff; border-radius: 6px; cursor: pointer; }
+button:hover { border-color: #4f6bed; }
+input, select { padding: 6px 8px; border: 1px solid #c8ccda; border-radius: 6px; }
+
+/* Chow Finder app */
+.app-header { display: flex; justify-content: space-between; align-items: center; }
+.badge { background: #4f6bed; color: #fff; padding: 4px 12px; border-radius: 999px; }
+.filters { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+.grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.card { background: #fff; border: 1px solid #dde0ea; border-radius: 10px; padding: 14px; }
+.card h3 { margin: 0 0 4px; }
+.panel { background: #fff; border: 2px solid #4f6bed; border-radius: 10px; padding: 16px; margin-top: 16px; }
